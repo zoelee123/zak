@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%=title%></title>
+	<link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+<body>
+	<div id="wrap">
+		<header class="header">
+			<span id="back" ui-sref="index">返回</span>
+		</header>
+		<form action="http://localhost:3030/signUp" method="post">
+			<input type="text" name="username" class="txt" placeholder="username">
+			<input type="password" name="password" class="txt" placeholder="password"></br>
+			<input type="submit" value="login" class="sub">
+		</form>
+		<!-- <form action="http://localhost:3030/signUp" method="post">
+			<input type="text" name="username" class="txt" placeholder="username">
+			<input type="password" name="password" class="txt" placeholder="password"></br>
+			<input type="button" value="login" class="sub" id="sub">
+		</form> -->
+	</div>
+</body>
+</html>
+
+

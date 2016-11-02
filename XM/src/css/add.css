@@ -1,0 +1,287 @@
+@import url("reset.css");
+html, body, #wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px; }
+
+#wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/*---------------------------------header-----------------------------*/
+.header {
+  height: .63rem;
+  line-height: .63rem;
+  background: #fb4747;
+  color: #fff;
+  position: relative; }
+  .header span {
+    position: absolute;
+    top: .2rem;
+    font-size: 0; }
+  .header span:nth-of-type(1) {
+    right: .28rem;
+    width: .19rem;
+    height: .23rem;
+    background: url("../img/my.png") no-repeat;
+    background-size: 100% 100%; }
+  .header h1 {
+    width: 100%;
+    padding-left: .25rem;
+    font-size: .2rem; }
+
+/*---------------------------------subnav---------------------------*/
+.subnav {
+  height: .53rem;
+  line-height: .53rem;
+  border-bottom: 1px solid #e8e8e8;
+  display: -webkit-flex; }
+  .subnav span {
+    width: 33%;
+    font-size: .18rem;
+    text-align: center; }
+
+/*---------------------------------main-----------------------------*/
+.main {
+  -webkit-flex: 1;
+  background: #fff;
+  overflow: hidden; }
+  .main section {
+    width: 100%; }
+
+/*---------------------------------topic-----------------------------*/
+.topic .add {
+  padding: .31rem 1.04rem;
+  position: relative; }
+  .topic .add span {
+    position: absolute;
+    top: .1rem; }
+  .topic .add span:nth-of-type(1) img {
+    width: .58rem;
+    height: .58rem; }
+  .topic .add span:nth-of-type(2) {
+    top: .3rem;
+    right: 1.3rem; }
+    .topic .add span:nth-of-type(2) img {
+      width: .11rem;
+      height: .18rem; }
+  .topic .add h3 {
+    width: 100%;
+    padding-left: .8rem;
+    font-size: .18rem;
+    color: #ababab; }
+.topic p {
+  line-height: .33rem;
+  background: #f3f3f3;
+  font-size: .13rem;
+  padding-left: .25rem;
+  color: #ababab; }
+.topic dl {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 .32rem;
+  display: -webkit-flex; }
+  .topic dl dt {
+    -webkit-flex: 1;
+    text-align: center;
+    line-height: 1.4rem; }
+    .topic dl dt img {
+      width: .6rem; }
+  .topic dl dd {
+    -webkit-flex: 3;
+    padding-left: .1rem;
+    position: relative; }
+    .topic dl dd img {
+      position: absolute;
+      top: .4rem;
+      right: .2rem;
+      width: .22rem;
+      height: .22rem; }
+    .topic dl dd h1 {
+      font-size: .21rem;
+      padding-top: .25rem; }
+    .topic dl dd h2 {
+      font-size: .15rem;
+      color: #acacac;
+      padding-top: .1rem; }
+
+/*---------------------------------choice-----------------------------*/
+.choice {
+  background: #f0f0f0; }
+  .choice .c_cont1 {
+    width: 100%;
+    display: -webkit-flex;
+    padding: .2rem .24rem;
+    background: #fff; }
+    .choice .c_cont1 p:nth-child(1) {
+      width: .54rem;
+      height: .54rem; }
+      .choice .c_cont1 p:nth-child(1) img {
+        width: 100%; }
+    .choice .c_cont1 p:nth-child(2) {
+      -webkit-flex: 1;
+      padding: .03rem 0 0 .2rem; }
+      .choice .c_cont1 p:nth-child(2) span:nth-of-type(1) {
+        font-size: .16rem;
+        color: #00a9ff; }
+      .choice .c_cont1 p:nth-child(2) span:nth-of-type(2) {
+        font-size: .13rem;
+        color: #bfbfbf; }
+    .choice .c_cont1 p:nth-child(3) {
+      -webkit-flex: 1;
+      padding-top: .03rem;
+      font-size: .13rem;
+      color: #bfbfbf; }
+  .choice h1 {
+    font-size: .2rem;
+    padding-left: .24rem;
+    line-height: .46rem;
+    background: #fff; }
+  .choice dl {
+    border-bottom: 1px solid #e8e8e8;
+    background: #fff;
+    margin-bottom: .15rem; }
+    .choice dl dt {
+      width: 100%; }
+      .choice dl dt img {
+        width: 100%; }
+    .choice dl dd {
+      display: -webkit-flex;
+      padding: .24rem 0; }
+      .choice dl dd p {
+        -webkit-flex: 1;
+        text-align: center;
+        border-right: 1px solid #e8e8e8; }
+        .choice dl dd p img {
+          width: .27rem;
+          height: .3rem;
+          padding-top: .1rem; }
+      .choice dl dd p:last-child {
+        border: none; }
+      .choice dl dd span {
+        padding-right: .1rem;
+        color: #bfbfbf;
+        font-size: .12rem; }
+
+/*---------------------------------friend-----------------------------*/
+.friend {
+  background: #f0f0f0; }
+  .friend .add {
+    padding: .31rem 1.04rem;
+    background: #fff;
+    position: relative; }
+    .friend .add span {
+      position: absolute;
+      top: .1rem; }
+    .friend .add span:nth-of-type(1) img {
+      width: .58rem;
+      height: .58rem; }
+    .friend .add span:nth-of-type(2) {
+      top: .3rem;
+      right: 1.3rem; }
+      .friend .add span:nth-of-type(2) img {
+        width: .11rem;
+        height: .18rem; }
+    .friend .add h3 {
+      width: 100%;
+      padding-left: .8rem;
+      font-size: .18rem;
+      color: #ababab; }
+  .friend .c_cont1 {
+    width: 100%;
+    display: -webkit-flex;
+    padding: .2rem .24rem;
+    background: #fff; }
+    .friend .c_cont1 p:nth-child(1) {
+      width: .54rem;
+      height: .54rem; }
+      .friend .c_cont1 p:nth-child(1) img {
+        width: 100%; }
+    .friend .c_cont1 p:nth-child(2) {
+      -webkit-flex: 1;
+      padding: .03rem 0 0 .2rem; }
+      .friend .c_cont1 p:nth-child(2) span:nth-of-type(1) {
+        font-size: .16rem;
+        color: #00a9ff; }
+      .friend .c_cont1 p:nth-child(2) span:nth-of-type(2), .friend .c_cont1 p:nth-child(2) span:nth-of-type(3) {
+        font-size: .13rem;
+        color: #bfbfbf;
+        padding-right: .06rem; }
+    .friend .c_cont1 p:nth-child(3) {
+      -webkit-flex: 1;
+      position: relative; }
+      .friend .c_cont1 p:nth-child(3) input, .friend .c_cont1 p:nth-child(3) label {
+        width: .99rem;
+        height: .54rem;
+        position: absolute;
+        top: 0;
+        right: .15rem; }
+      .friend .c_cont1 p:nth-child(3) input {
+        z-index: 10;
+        opacity: 0; }
+      .friend .c_cont1 p:nth-child(3) label {
+        background: url("../img/guanz.png") no-repeat;
+        background-size: 100% 100%; }
+  .friend h1 {
+    font-size: .16rem;
+    padding: .1rem .25rem;
+    line-height: .25rem;
+    background: #fff;
+    position: relative; }
+    .friend h1 span {
+      position: absolute;
+      right: .25rem;
+      bottom: .08rem;
+      text-align: right;
+      color: #00a9ff; }
+  .friend dl {
+    border-bottom: 1px solid #e8e8e8;
+    background: #fff;
+    margin-bottom: .15rem; }
+    .friend dl dt {
+      width: 100%;
+      display: -webkit-flex; }
+      .friend dl dt h3 {
+        -webkit-flex: 1; }
+        .friend dl dt h3 img {
+          width: 100%; }
+    .friend dl dd {
+      display: -webkit-flex;
+      padding: .24rem 0; }
+      .friend dl dd p {
+        -webkit-flex: 1;
+        text-align: center;
+        border-right: 1px solid #e8e8e8; }
+        .friend dl dd p img {
+          width: .27rem;
+          height: .3rem;
+          padding-top: .1rem; }
+      .friend dl dd p:last-child {
+        border: none; }
+      .friend dl dd span {
+        padding-right: .1rem;
+        color: #bfbfbf;
+        font-size: .12rem; }
+
+/*---------------------------------footer-----------------------------*/
+.footer {
+  height: .8rem;
+  background: #f6f6f6;
+  border-top: 1px solid #ccc; }
+  .footer a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: .16rem;
+    color: #878787;
+    padding-top: .1rem; }
+    .footer a img {
+      width: .28rem;
+      height: .28rem;
+      margin-bottom: .06rem; }
+  .footer .on {
+    color: #fb4747; }
+
+/*# sourceMappingURL=add.css.map */

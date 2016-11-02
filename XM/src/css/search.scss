@@ -1,0 +1,146 @@
+@import url("reset.css");
+
+%full{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+@mixin pos($p:absolute){
+	position:$p;
+}
+
+body{
+	font-size: 16px;
+}
+
+html,body,#wrap{
+	@extend %full;
+}
+
+#wrap{
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+
+/*---------------------------------header-----------------------------*/
+.header{
+	height: .63rem;
+	line-height: .63rem;
+	background: #fb4747;
+	color: #fff;
+	@include pos(relative);
+	span{
+		@include pos;
+		top: .2rem;
+		font-size: 0;
+	}
+	span:nth-of-type(1){
+		left: .28rem;
+		width: .23rem;
+		height: .23rem;
+		background: url("../img/back.png")no-repeat;
+		background-size: 100% 100%;
+	}
+	h1{
+		width: 80%;
+		margin-left: 14%;
+		font-size: .16rem;
+		color: #aeaeae;
+		@include pos(relative);
+		display: -webkit-flex;
+		.search{
+			width: .21rem;
+			height: .21rem;
+			@include pos;
+			top: .2rem;
+			left: .16rem;
+
+		}
+		input{
+			-webkit-flex:1;
+			line-height: .48rem;
+			padding-left: .45rem;
+			border: none;
+			border-radius: .1rem 0 0 .1rem;
+			margin-top: .07rem;
+		}
+		button{
+			width: .87rem;
+			line-height: .45rem;
+			text-align: center;
+			border: none;
+			border-radius: 0 .1rem .1rem 0;
+			margin-top: .07rem;
+		}
+	}
+}
+
+/*---------------------------------topnav-----------------------------*/
+.topnav{
+	height: .53rem;
+	line-height: .53rem;
+	border-bottom: 1px solid #e8e8e8;
+	display: -webkit-flex;
+	p{
+		-webkit-flex:1;
+		text-align: center;
+		font-size: .18rem;
+		color: #ababab;
+	}
+}
+
+/*---------------------------------main-----------------------------*/
+.main{
+	-webkit-flex:1;
+	background: #fff;
+	overflow: hidden;
+	//overflow-y:scroll;
+
+	ul{
+		width: 100%;
+		padding: .05rem .05rem 0 .05rem;
+		display: -webkit-flex;
+		-webkit-justify-content:space-between;
+		li{
+			-webkit-flex:1;
+			padding: .1rem .1rem 0 .1rem;
+			img{
+				width: 100%;
+			}
+		}
+	}
+
+	h1{
+		font-size: .2rem;
+		padding-left: .24rem;
+		line-height: .46rem;
+		background: #f3f3f3;
+	}
+
+	dl{
+		padding: .24rem .23rem;
+		border-bottom: 1px solid #e8e8e8;
+		display: -webkit-flex;
+		dt{
+			width: 1.05rem;
+			height: 1.05rem;
+			img{
+				width: 100%;
+			}
+		}
+		dd{
+			-webkit-flex:1;
+			padding-left: .23rem;
+			h2{
+				font-size: .17rem;
+				padding-top: .31rem;
+			}
+			h3{
+				font-size: .15rem;
+				padding-top: .1rem;
+				color: #bfbfbf;
+			}
+		}
+	}
+}

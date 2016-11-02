@@ -1,0 +1,111 @@
+@import url("reset.css");
+html, body, #wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px; }
+
+#wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/*---------------------------------header-----------------------------*/
+.header {
+  height: .63rem;
+  line-height: .63rem;
+  background: #fb4747;
+  color: #fff;
+  position: relative; }
+  .header span {
+    position: absolute;
+    top: .2rem;
+    font-size: 0; }
+  .header span:nth-of-type(1) {
+    left: .28rem;
+    width: .23rem;
+    height: .23rem;
+    background: url("../img/back.png") no-repeat;
+    background-size: 100% 100%; }
+  .header h1 {
+    width: 80%;
+    margin-left: 14%;
+    font-size: .16rem;
+    color: #aeaeae;
+    position: relative;
+    display: -webkit-flex; }
+    .header h1 .search {
+      width: .21rem;
+      height: .21rem;
+      position: absolute;
+      top: .2rem;
+      left: .16rem; }
+    .header h1 input {
+      -webkit-flex: 1;
+      line-height: .48rem;
+      padding-left: .45rem;
+      border: none;
+      border-radius: .1rem 0 0 .1rem;
+      margin-top: .07rem; }
+    .header h1 button {
+      width: .87rem;
+      line-height: .45rem;
+      text-align: center;
+      border: none;
+      border-radius: 0 .1rem .1rem 0;
+      margin-top: .07rem; }
+
+/*---------------------------------topnav-----------------------------*/
+.topnav {
+  height: .53rem;
+  line-height: .53rem;
+  border-bottom: 1px solid #e8e8e8;
+  display: -webkit-flex; }
+  .topnav p {
+    -webkit-flex: 1;
+    text-align: center;
+    font-size: .18rem;
+    color: #ababab; }
+
+/*---------------------------------main-----------------------------*/
+.main {
+  -webkit-flex: 1;
+  background: #fff;
+  overflow: hidden; }
+  .main ul {
+    width: 100%;
+    padding: .05rem .05rem 0 .05rem;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between; }
+    .main ul li {
+      -webkit-flex: 1;
+      padding: .1rem .1rem 0 .1rem; }
+      .main ul li img {
+        width: 100%; }
+  .main h1 {
+    font-size: .2rem;
+    padding-left: .24rem;
+    line-height: .46rem;
+    background: #f3f3f3; }
+  .main dl {
+    padding: .24rem .23rem;
+    border-bottom: 1px solid #e8e8e8;
+    display: -webkit-flex; }
+    .main dl dt {
+      width: 1.05rem;
+      height: 1.05rem; }
+      .main dl dt img {
+        width: 100%; }
+    .main dl dd {
+      -webkit-flex: 1;
+      padding-left: .23rem; }
+      .main dl dd h2 {
+        font-size: .17rem;
+        padding-top: .31rem; }
+      .main dl dd h3 {
+        font-size: .15rem;
+        padding-top: .1rem;
+        color: #bfbfbf; }
+
+/*# sourceMappingURL=search.css.map */

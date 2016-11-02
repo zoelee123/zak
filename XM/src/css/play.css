@@ -1,0 +1,91 @@
+@import url("reset.css");
+html, body, #wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px; }
+
+#wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/*---------------------------------header-----------------------------*/
+.header {
+  height: .63rem;
+  line-height: .63rem;
+  background: #fb4747;
+  color: #fff;
+  position: relative; }
+  .header span {
+    position: absolute;
+    top: .2rem;
+    font-size: 0; }
+  .header span:nth-of-type(1) {
+    right: 1.01rem;
+    width: .23rem;
+    height: .23rem;
+    background: url("../img/play.png") no-repeat;
+    background-size: 100% 100%; }
+  .header span:nth-of-type(2) {
+    right: .28rem;
+    width: .19rem;
+    height: .23rem;
+    background: url("../img/my.png") no-repeat;
+    background-size: 100% 100%; }
+  .header span:nth-of-type(3) {
+    right: 1.35rem;
+    top: .02rem;
+    font-size: .18rem; }
+  .header h1 {
+    width: 100%;
+    padding-left: .25rem;
+    font-size: .2rem; }
+
+/*---------------------------------main-----------------------------*/
+.main {
+  -webkit-flex: 1;
+  background: #eaeaea;
+  overflow: hidden; }
+  .main li {
+    width: 100%; }
+    .main li img {
+      width: 100%; }
+  .main .topnav {
+    padding: .1rem;
+    background: #fff;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between; }
+    .main .topnav span {
+      margin: 0 .1rem; }
+      .main .topnav span img {
+        width: 100%; }
+  .main h1 {
+    color: #ababab;
+    font-size: .16rem;
+    line-height: .58rem;
+    margin-top: .12rem;
+    text-align: center;
+    background: #fff; }
+
+/*---------------------------------footer-----------------------------*/
+.footer {
+  height: .8rem;
+  background: #f6f6f6;
+  border-top: 1px solid #ccc; }
+  .footer a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: .16rem;
+    color: #878787;
+    padding-top: .1rem; }
+    .footer a img {
+      width: .28rem;
+      height: .28rem;
+      margin-bottom: .06rem; }
+  .footer .on {
+    color: #fb4747; }
+
+/*# sourceMappingURL=play.css.map */

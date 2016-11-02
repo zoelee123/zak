@@ -1,0 +1,58 @@
+@import url("reset.css");
+html, body, #wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 16px; }
+
+#wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/*---------------------------------header-----------------------------*/
+.header {
+  height: .63rem;
+  line-height: .63rem;
+  background: #fb4747;
+  color: #fff;
+  position: relative; }
+  .header span {
+    position: absolute;
+    top: .2rem;
+    font-size: 0; }
+  .header span:nth-of-type(1) {
+    left: .28rem;
+    width: .23rem;
+    height: .23rem;
+    background: url("../img/back.png") no-repeat;
+    background-size: 100% 100%; }
+  .header h1 {
+    width: 100%;
+    padding-left: .9rem;
+    font-size: .2rem; }
+
+/*---------------------------------main-----------------------------*/
+.main {
+  -webkit-flex: 1;
+  background: #eaeaea;
+  overflow: hidden; }
+  .main ul {
+    width: 100%; }
+    .main ul li {
+      border-bottom: 1px solid #e8e8e8;
+      background: #fff;
+      padding: .34rem 0 .34rem .25rem;
+      font-size: .2rem; }
+    .main ul li:nth-child(1) {
+      display: -webkit-flex; }
+      .main ul li:nth-child(1) img {
+        width: .54rem;
+        height: .53rem; }
+      .main ul li:nth-child(1) span:nth-child(2) {
+        padding: .15rem 0 0 .15rem; }
+    .main ul li:nth-last-child(2) {
+      margin-top: .17rem; }
+
+/*# sourceMappingURL=myself.css.map */

@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\WEB软件\\nodejs\\node.exe',
+1 verbose cli   'D:\\WEB软件\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData gulp-minify-html
+20 silly mapToRegistry name gulp-minify-html
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'gulp-minify-html',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'gulp-minify-html',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+25 silly fetchNamedPackageData gulp-raname
+26 silly mapToRegistry name gulp-raname
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'gulp-raname',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'gulp-raname',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/gulp-raname
+31 verbose request uri https://registry.npmjs.org/gulp-minify-html
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 18:54:03
+34 verbose request id 299263ae4f1d538a
+35 http request GET https://registry.npmjs.org/gulp-minify-html
+36 verbose request uri https://registry.npmjs.org/gulp-raname
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 18:54:03
+39 http request GET https://registry.npmjs.org/gulp-raname
+40 http 404 https://registry.npmjs.org/gulp-raname
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=0',
+41 verbose headers   'content-length': '2',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Mon, 31 Oct 2016 10:54:04 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   age: '0',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1477911243.939102,VS0,VE725',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 silly get cb [ 404,
+42 silly get   { 'content-type': 'application/json',
+42 silly get     'cache-control': 'max-age=0',
+42 silly get     'content-length': '2',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Mon, 31 Oct 2016 10:54:04 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '0',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-itm7425-ITM',
+42 silly get     'x-cache': 'MISS',
+42 silly get     'x-cache-hits': '0',
+42 silly get     'x-timer': 'S1477911243.939102,VS0,VE725',
+42 silly get     vary: 'Accept-Encoding' } ]
+43 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-raname
+43 silly fetchPackageMetaData     at makeError (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+43 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+43 silly fetchPackageMetaData     at Request._callback (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+43 silly fetchPackageMetaData     at Request.self.callback (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+43 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+43 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+43 silly fetchPackageMetaData     at Request.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+43 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+43 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+43 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+43 silly fetchPackageMetaData  error for gulp-raname@* { Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-raname
+43 silly fetchPackageMetaData     at makeError (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+43 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+43 silly fetchPackageMetaData     at Request._callback (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+43 silly fetchPackageMetaData     at Request.self.callback (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+43 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+43 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+43 silly fetchPackageMetaData     at Request.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+43 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+43 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+43 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:988:12) pkgid: 'gulp-raname', statusCode: 404, code: 'E404' }
+44 http 200 https://registry.npmjs.org/gulp-minify-html
+45 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 verbose headers   etag: '"7XMY52RD2U2Z7TY8A990YQGO1"',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'content-encoding': 'gzip',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   'content-length': '4016',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   date: 'Mon, 31 Oct 2016 10:54:04 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   age: '0',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+45 verbose headers   'x-cache': 'HIT',
+45 verbose headers   'x-cache-hits': '1',
+45 verbose headers   'x-timer': 'S1477911243.946767,VS0,VE752',
+45 verbose headers   vary: 'Accept-Encoding' }
+46 silly get cb [ 200,
+46 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly get     etag: '"7XMY52RD2U2Z7TY8A990YQGO1"',
+46 silly get     'content-type': 'application/json',
+46 silly get     'content-encoding': 'gzip',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     'content-length': '4016',
+46 silly get     'accept-ranges': 'bytes',
+46 silly get     date: 'Mon, 31 Oct 2016 10:54:04 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-itm7423-ITM',
+46 silly get     'x-cache': 'HIT',
+46 silly get     'x-cache-hits': '1',
+46 silly get     'x-timer': 'S1477911243.946767,VS0,VE752',
+46 silly get     vary: 'Accept-Encoding' } ]
+47 verbose get saving gulp-minify-html to C:\Users\samsung\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-minify-html\.cache.json
+48 verbose correctMkdir C:\Users\samsung\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 silly resolveWithNewModule gulp-minify-html@1.0.6 checking installable status
+50 silly cache add args [ 'gulp-minify-html@*', null ]
+51 verbose cache add spec gulp-minify-html@*
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: 'gulp-minify-html@*',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'gulp-minify-html',
+52 silly cache add   rawSpec: '*',
+52 silly cache add   spec: '*',
+52 silly cache add   type: 'range' }
+53 silly addNamed gulp-minify-html@*
+54 verbose addNamed "*" is a valid semver range for gulp-minify-html
+55 silly addNameRange { name: 'gulp-minify-html', range: '*', hasData: false }
+56 silly mapToRegistry name gulp-minify-html
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'gulp-minify-html',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   name: 'gulp-minify-html',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+61 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-html not in flight; fetching
+62 verbose get https://registry.npmjs.org/gulp-minify-html not expired, no request
+63 silly addNameRange number 2 { name: 'gulp-minify-html', range: '*', hasData: true }
+64 silly addNameRange versions [ 'gulp-minify-html',
+64 silly addNameRange   [ '0.0.1',
+64 silly addNameRange     '0.1.0',
+64 silly addNameRange     '0.1.1',
+64 silly addNameRange     '0.1.2',
+64 silly addNameRange     '0.1.3',
+64 silly addNameRange     '0.1.4',
+64 silly addNameRange     '0.1.5',
+64 silly addNameRange     '0.1.6',
+64 silly addNameRange     '0.1.7',
+64 silly addNameRange     '0.1.8',
+64 silly addNameRange     '1.0.0',
+64 silly addNameRange     '1.0.1',
+64 silly addNameRange     '1.0.2',
+64 silly addNameRange     '1.0.3',
+64 silly addNameRange     '1.0.4',
+64 silly addNameRange     '1.0.5',
+64 silly addNameRange     '1.0.6' ] ]
+65 silly addNamed gulp-minify-html@1.0.6
+66 verbose addNamed "1.0.6" is a plain semver version for gulp-minify-html
+67 silly mapToRegistry name gulp-minify-html
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'gulp-minify-html',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   name: 'gulp-minify-html',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+72 verbose addRemoteTarball https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-1.0.6.tgz not in flight; adding
+73 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-1.0.6.tgz',
+73 verbose addRemoteTarball   'f947f3f139475bbe1b08fffe714c4729f1ff070a' ]
+74 info retry fetch attempt 1 at 18:54:04
+75 info attempt registry request try #1 at 18:54:04
+76 http fetch GET https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-1.0.6.tgz
+77 http fetch 200 https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-1.0.6.tgz
+78 silly fetchAndShaCheck shasum f947f3f139475bbe1b08fffe714c4729f1ff070a
+79 verbose addTmpTarball C:\Users\samsung\AppData\Local\Temp\npm-7900-06c84488\registry.npmjs.org\gulp-minify-html\-\gulp-minify-html-1.0.6.tgz not in flight; adding
+80 verbose addTmpTarball already have metadata; skipping unpack for gulp-minify-html@1.0.6
+81 verbose correctMkdir C:\Users\samsung\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+82 silly cache afterAdd gulp-minify-html@1.0.6
+83 verbose afterAdd C:\Users\samsung\AppData\Roaming\npm-cache\gulp-minify-html\1.0.6\package\package.json not in flight; writing
+84 verbose correctMkdir C:\Users\samsung\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+85 verbose afterAdd C:\Users\samsung\AppData\Roaming\npm-cache\gulp-minify-html\1.0.6\package\package.json written
+86 silly rollbackFailedOptional Starting
+87 silly rollbackFailedOptional Finishing
+88 silly runTopLevelLifecycles Starting
+89 silly runTopLevelLifecycles Finishing
+90 silly install printInstalled
+91 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-raname
+91 verbose stack     at makeError (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+91 verbose stack     at CachingRegistryClient.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+91 verbose stack     at Request._callback (D:\WEB软件\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+91 verbose stack     at Request.self.callback (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+91 verbose stack     at emitTwo (events.js:106:13)
+91 verbose stack     at Request.emit (events.js:191:7)
+91 verbose stack     at Request.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+91 verbose stack     at emitOne (events.js:101:20)
+91 verbose stack     at Request.emit (events.js:188:7)
+91 verbose stack     at IncomingMessage.<anonymous> (D:\WEB软件\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+92 verbose statusCode 404
+93 verbose pkgid gulp-raname
+94 verbose cwd E:\DAy\node\XM
+95 error Windows_NT 6.3.9600
+96 error argv "D:\\WEB软件\\nodejs\\node.exe" "D:\\WEB软件\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+97 error node v6.2.0
+98 error npm  v3.8.9
+99 error code E404
+100 error 404 Registry returned 404 for GET on https://registry.npmjs.org/gulp-raname
+101 error 404
+102 error 404 'gulp-raname' is not in the npm registry.
+103 error 404 You should bug the author to publish it (or use the name yourself!)
+104 error 404 It was specified as a dependency of '9.27data'
+105 error 404 Note that you can also install from a
+106 error 404 tarball, folder, http url, or git url.
+107 verbose exit [ 1, true ]
